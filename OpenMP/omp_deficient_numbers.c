@@ -11,11 +11,7 @@
 
   Licensing:
 
-    This code is distributed under the GNU LGPL license.
-
-  Modified:
-
-    24 September 2003
+  This code is distributed under the GNU LGPL license.
 
   Author:
   electronic content
@@ -58,6 +54,7 @@ bool checkDeficient(int n)
 
 int main()
 {
+//the variable wtime stores the time it takes to execute the program
     double wtime;
     double mflops;
     int n, ctr = 0;
