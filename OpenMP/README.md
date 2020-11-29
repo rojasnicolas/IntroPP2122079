@@ -1,4 +1,4 @@
-Inside this folder you can find 5 files, omp_deficient_numbers.c (code), omp_deficient_numbers (compile file), deficient_numbers.sbatch (configure file slurm), output_deficient_numbers_omp.txt (results) and output_deficient_numbers_omp.txt (mistakes).
+Inside this folder you can find 5 files, omp_deficient_numbers.c (code), omp_deficient_numbers (compile file), deficient_numbers.sbatch (configure file slurm), output_deficient_numbers_omp.txt (results) and output_deficient_numbers_omp.err (mistakes).
 
 
 this code has been executed in local and guane for 16 cores for task
