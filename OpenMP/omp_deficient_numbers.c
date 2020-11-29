@@ -3,6 +3,31 @@
 #include <math.h>
 #include <omp.h>
 
+/*
+
+  Purpose:
+
+  deficient_numbers calculates and writes the deficient numbers between 1 and a given number, using some parameters by Intro PP students.
+
+  Licensing:
+
+    This code is distributed under the GNU LGPL license.
+
+  Modified:
+
+    24 September 2003
+
+  Author:
+  electronic content
+  https://www.w3resource.com/c-programming-exercises/numbers/c-numbers-exercise-5.php 
+  
+  OpenMP Modification:
+  26 Nov 2020 by Nicolás Rojas, Universidad Industrial de Santander DAMAR.ROJAS@correo.uis.edu.co                   
+  This OpenMP Modification makes a parallelization of the original Code design.  
+  
+*/
+
+
 int getSum(int n)
 {
     int sum = 0;
@@ -40,7 +65,9 @@ int main()
     printf("\n\n The Deficient numbers between 1 to 1000000 are: \n");
     printf(" ------------------------------------------------\n");
     wtime = omp_get_wtime();
-#pragma omp parallel for
+
+//
+#pragma omp parallel for 
     for (int j = 1; j <= 10000000; j++)
     {
         n = j;
