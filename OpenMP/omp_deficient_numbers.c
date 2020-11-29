@@ -66,7 +66,7 @@ int main()
     printf(" ------------------------------------------------\n");
     wtime = omp_get_wtime();
 
-//
+//the for is parallelized
 #pragma omp parallel for 
     for (int j = 1; j <= 10000000; j++)
     {
