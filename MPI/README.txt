@@ -3,7 +3,7 @@ Inside this folder you can find 6 files, mpi_deficient_numbers.c (code), mpi_def
 
 this code has been tested in guane for N = 1000000 iter
 Nodes = 2
-tasks per node = 16
+tasks per node = 8
 
 Using openmpi version 3.1.4
 
