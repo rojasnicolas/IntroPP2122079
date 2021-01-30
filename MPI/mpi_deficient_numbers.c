@@ -8,6 +8,21 @@
 #define TAG_CTR 1
 #define TAG_N 2
 
+/*
+  Purpose:
+  deficient_numbers calculates and writes the deficient numbers between 1 and a given number, using some parameters by Intro PP students.
+  Licensing:
+  This code is distributed under the GNU LGPL license.
+  Author:
+  electronic content
+  https://www.w3resource.com/c-programming-exercises/numbers/c-numbers-exercise-5.php 
+  
+  OpenMPI Modification:
+  26 Jan 2020 by Nicolás Rojas, Universidad Industrial de Santander DAMAR.ROJAS@correo.uis.edu.co                   
+  This OpenMPI Modification makes a parallelization of the original Code design.  
+  
+*/
+
 int getSum(int n)
 {
     int sum = 0;
